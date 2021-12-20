@@ -11,7 +11,27 @@ namespace StrategyConsoleApp.Logic.Tax.Rates
     {
         public decimal GetTaxFor(OrderItem item)
         {
-            return 50;
+            decimal tax = 0;
+            foreach(var product in item.Items)
+            {
+                switch(product.CategoryID)
+                {
+                    case 1:
+                        tax += 5;
+                        break;
+                    case 2:
+                        tax += 3;
+                        break;
+                    case 3:
+                        tax += 4;
+                        break;
+                    default:
+                        tax += 0;
+                        break;
+                }
+            }
+
+            return tax;
         }
     }
 }
