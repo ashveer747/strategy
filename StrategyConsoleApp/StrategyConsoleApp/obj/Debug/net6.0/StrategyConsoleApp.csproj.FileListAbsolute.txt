@@ -1,0 +1,15 @@
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\bin\Debug\net6.0\StrategyConsoleApp.exe
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\bin\Debug\net6.0\StrategyConsoleApp.deps.json
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\bin\Debug\net6.0\StrategyConsoleApp.runtimeconfig.json
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\bin\Debug\net6.0\StrategyConsoleApp.dll
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\bin\Debug\net6.0\ref\StrategyConsoleApp.dll
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\bin\Debug\net6.0\StrategyConsoleApp.pdb
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\obj\Debug\net6.0\StrategyConsoleApp.csproj.AssemblyReference.cache
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\obj\Debug\net6.0\StrategyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\obj\Debug\net6.0\StrategyConsoleApp.AssemblyInfoInputs.cache
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\obj\Debug\net6.0\StrategyConsoleApp.AssemblyInfo.cs
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\obj\Debug\net6.0\StrategyConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\obj\Debug\net6.0\StrategyConsoleApp.dll
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\obj\Debug\net6.0\ref\StrategyConsoleApp.dll
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\obj\Debug\net6.0\StrategyConsoleApp.pdb
+C:\Users\AshveerR\MyRepos\StrategyPattern\ConsoleApp\StrategyConsoleApp\StrategyConsoleApp\obj\Debug\net6.0\StrategyConsoleApp.genruntimeconfig.cache
