@@ -15,11 +15,18 @@ namespace StrategyConsoleApp.Models
         public int CategoryID { get; set; }
     }
 
+    public class OrderTaxProvider
+    {
+        public string Assembly { get; set; }
+        public int TaxTypeID { get; set; }
+    }
+
     public class OrderItem
     {
         public List<Order> Items { get; set; }
+        public List<OrderTaxProvider> TaxProviders { get; set; }    
         public int TaxTypeID { get; set; }
-        public OrderItem()
+        public OrderItem(int TaxTypeID)
         {
             Items = new List<Order>()
             {
@@ -29,7 +36,13 @@ namespace StrategyConsoleApp.Models
                 new Order(){ Id = 3 , Name = "Eggs",        Price = 20, CategoryID = 2 },
                 new Order(){ Id = 3 , Name = "Beans",       Price = 15, CategoryID = 2 },
             };
-            this.TaxTypeID = 2;
+            this.TaxProviders = new List<OrderTaxProvider>()
+            {
+                new OrderTaxProvider(){ Assembly = "StrategyConsoleApp.Logic.Tax.Rates.JunkFoodTaxStrategy", TaxTypeID = 1 },
+                new OrderTaxProvider(){ Assembly = "StrategyConsoleApp.Logic.Tax.Rates.DefaultTaxStrategy", TaxTypeID = 2 },
+                new OrderTaxProvider(){ Assembly = "StrategyConsoleApp.Logic.Tax.Rates.DefaultTaxStrategy", TaxTypeID = 3 },
+            };
+            this.TaxTypeID = TaxTypeID;
         }
     }
 }

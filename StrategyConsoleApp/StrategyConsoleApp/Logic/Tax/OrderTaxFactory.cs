@@ -12,21 +12,22 @@ namespace StrategyConsoleApp.Logic.Tax
     {
         public decimal GetTaxStrategy(OrderItem item)
         {
-            IOrderTaxStrategy ash;
-            switch (item.TaxTypeID)
+            IOrderTaxStrategy? strategyType = null;
+            string provider = item.TaxProviders.FirstOrDefault(x => x.TaxTypeID == item.TaxTypeID)?.Assembly ?? "";
+            Type? type = Type.GetType(provider);
+            if (type != null)
             {
-                case 1:
-                    ash = new JunkFoodTaxStrategy();
-                    break;
-                case 2:
-                    ash = new DefaultTaxStrategy();
-                    break;
-                default:
-                    ash = new JunkFoodTaxStrategy();
-                    break;
+                object? temp = Activator.CreateInstance(type);
+                if (temp != null)
+                {
+                    strategyType = (IOrderTaxStrategy)temp;
+                }
             }
-
-            return ash.GetTaxFor(item);
+            if(strategyType == null)
+            {
+                strategyType = new DefaultTaxStrategy();
+            }
+            return strategyType.GetTaxFor(item);
         }
     }
 }

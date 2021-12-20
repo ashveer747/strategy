@@ -4,7 +4,7 @@ using StrategyConsoleApp.Models;
 
 Console.WriteLine("Application Start...");
 
-OrderItem Orders = new();
+OrderItem Orders = new(1);
 
 Console.WriteLine("TAX: " + new OrderTaxFactory().GetTaxStrategy(Orders));
 

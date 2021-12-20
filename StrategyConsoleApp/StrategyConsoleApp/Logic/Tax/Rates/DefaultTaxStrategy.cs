@@ -11,7 +11,7 @@ namespace StrategyConsoleApp.Logic.Tax.Rates
     {
         public decimal GetTaxFor(OrderItem item)
         {
-            return 20;
+            return 100;
         }
     }
 }
